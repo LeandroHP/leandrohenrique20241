@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: white; /* Fundo branco para o cabeçalho */
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+html, body {
+    height: 100%;
+}
+
+header {
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 50%;
+}
+
+.menu {
+    padding-top: 50px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.menu a:hover {
+    background-image: url('img/bandeira.png');
+    background-size: cover;
+    color: #ffd700;
+    transform: scale(1.1);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+    font-weight: bold; /* Negrito ao passar o mouse */
+}
+
+.economia, .autorais, .seta {
+    padding: 20px; /* Adiciona espaçamento interno */
+}
+
+.historia, .gerais, .localizacao, .bandeira, .geografia, .mapa, .cidadania, .intercambio {
+    padding: 20px; /* Espaçamento interno para cada seção */
+    margin-bottom: 20px; /* Espaçamento inferior entre seções */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+.historia {
+    background-color: rgba(128, 128, 128, 0.5); /* Cinza com opacidade de 0.5 */
+}
+
+.gerais {
+    background-color: rgba(0, 0, 251, 0.5);
+}
+
+.localizacao {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.bandeira {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.geografia {
+    background-color: rgba(0, 0, 251, 0.5);
+}
+
+.mapa {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.mapa img {
+    width: 300px;
+}
+
+.cidadania {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.intercambio {
+    background-color: rgba(0, 0, 251, 0.5);
+}
+
+.autorais {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.seta img {
+    position: absolute;
+    right: 0px;
+    bottom: -1800px;
+    margin: 20px 0;
+}

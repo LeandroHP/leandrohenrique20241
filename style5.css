@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+header {
+    background-color: white;
+    height: 200px;
+    padding: 20px 0;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.logo {
+    width: 50%;
+}
+
+.menu {
+    padding-top: 50px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.menu a:hover {
+    background-image: url('img/bandeira.png');
+    background-size: cover;
+    color: #ffd700;
+    transform: scale(1.1);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.curiosidades {
+    margin-top: 20px;
+}
+
+.curiosidade {
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.curiosidade h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.curiosidade p {
+    font-size: 1em;
+}
+
+.curiosidade1 {
+    margin-top: 20px;
+}
+
+.curiosidade1 {
+    background-color: rgba(0, 0, 251, 0.5);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.curiosidade1 h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.curiosidade1 p {
+    font-size: 1em;
+}
+
+.curiosidade2 {
+    margin-top: 20px;
+}
+
+.curiosidade2 {
+    background-color: rgba(251, 0, 0, 0.5);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.curiosidade2 h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.curiosidade2 p {
+    font-size: 1em;
+}
+
+.curiosidade3 {
+    margin-top: 20px;
+}
+
+.curiosidade3 {
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.curiosidade3 h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.curiosidade3 p {
+    font-size: 1em;
+}
+
+.curiosidade4 {
+    margin-top: 20px;
+}
+
+.curiosidade4 {
+    background-color: rgba(0, 0, 251, 0.5);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.curiosidade4 h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.curiosidade4 p {
+    font-size: 1em;
+}
+
+.curiosidade5 {
+    margin-top: 20px;
+}
+
+.curiosidade5 {
+    background-color: rgba(251, 0, 0, 0.5);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.curiosidade5 h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.curiosidade5 p {
+    font-size: 1em;
+}
+
+.curiosidade6 {
+    margin-top: 20px;
+}
+
+.curiosidade6 {
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.curiosidade6 h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.curiosidade6 p {
+    font-size: 1em;
+}
+
+.curiosidade7 {
+    margin-top: 20px;
+}
+
+.curiosidade7 {
+    background-color: rgba(0, 0, 251, 0.5);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.curiosidade7 h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.curiosidade7 p {
+    font-size: 1em;
+}
+
+.curiosidade8 {
+    margin-top: 20px;
+}
+
+.curiosidade8 {
+    background-color: rgba(251, 0, 0, 0.5);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.curiosidade8 h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.curiosidade8 p {
+    font-size: 1em;
+}
+
+.curiosidade9 {
+    margin-top: 20px;
+}
+
+.curiosidade9 {
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.curiosidade9 h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.curiosidade9 p {
+    font-size: 1em;
+}
+
+.autorais {
+    position:absolute;
+    right:500px;
+    bottom:-800px;
+    margin: 20 px 0;
+}
+
+.seta img {
+    position: absolute;
+    right: 0px;
+    bottom: -800px;
+    margin: 20px 0;
+}

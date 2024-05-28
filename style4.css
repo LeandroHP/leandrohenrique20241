@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+header {
+    background-color: white; /* Fundo branco para o cabeçalho */
+    height: 200px;
+    padding: 20px 0;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.logo {
+    width: 50%;
+}
+
+.menu {
+    padding-top: 50px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.menu a:hover {
+    background-image: url('img/bandeira.png');
+    background-size: cover;
+    color: #ffd700;
+    transform: scale(1.1);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+    font-weight: bold; 
+}
+
+.content {
+    padding: 20px; 
+}
+
+.secao {
+    padding: 20px; 
+    margin-bottom: 20px; 
+    border-radius: 10px; 
+}
+
+.sydney, .melbourne, .great-barrier-reef, .uluru, .outback, .tasmania, .perth, .ativ {
+    padding: 20px; 
+    margin-bottom: 20px; 
+    border-radius: 10px; 
+}
+
+.sydney {
+    background-color: rgba(128, 128, 128, 0.5); /* Cinza com opacidade de 0.5 */
+}
+
+.melbourne {
+    background-color: rgba(0, 0, 251, 0.5); 
+}
+
+.great-barrier-reef {
+    background-color: rgba(255, 0, 0, 0.5); 
+}
+
+.uluru {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.outback {
+    background-color: rgba(0, 0, 251, 0.5); 
+}
+
+.tasmania {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.perth {
+    background-color: rgba(128, 128, 128, 0.5); 
+}
+
+.atividades-populares {
+    padding: 20px; 
+    margin-bottom: 20px; 
+    border-radius: 10px; 
+    background-color: rgba(0, 0, 251, 0.5); /* Azul com opacidade de 0.5 */
+}
+
+.atividades-populares h2 {
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.atividades-populares p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.autorais {
+    position:absolute;
+    right:500px;
+    bottom:-850px;
+    margin: 20 px 0;
+}
+
+.seta img {
+    position: absolute;
+    right: 0px;
+    bottom: -850px;
+    margin: 20px 0;
+}
